@@ -37,11 +37,11 @@ const Hero = () => {
         </h1> */}
 
         <div>
-          <h3 className="text-[30px] md:text-[60px] font-[700] text-white text-center">
+          <h3 className="text-[30px] md:text-[60px] font-[700] text-white text-center uppercase">
             Bori events
           </h3>
 
-          <div className="flex items-center gap-x-[10px] mt-[10px] text-white text-[14px] md:text-[20px] font-[600] capitalize">
+          <div className="flex items-center justify-center gap-x-[10px] mt-[10px] text-white text-[14px] md:text-[20px] font-[600] capitalize">
             <span className="text-white text-[20px]">
               <BsFillCalendarCheckFill size={25} />
             </span>

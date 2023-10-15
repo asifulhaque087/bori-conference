@@ -19,7 +19,7 @@ const Tab = ({ activeIndex, setActiveIndex, tabs }: IProps) => {
           className={`text-black text-[14px] tracking-[0.5px] cursor-pointer whitespace-nowrap
           ${
             i == activeIndex &&
-            "!bg-[#24334A] !text-white !rounded-[10px] !px-[10px] !py-[2px] grid place-items-center"
+            "!bg-blue-400 !text-white !rounded-[10px] !px-[10px] !py-[2px] grid place-items-center"
           }
           `}
           onClick={() => setActiveIndex(i)}
