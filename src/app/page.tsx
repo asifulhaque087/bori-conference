@@ -53,14 +53,15 @@ export default function Home() {
       <Header />
       <div className="md:mx-[100px] mx-[20px] mt-[50px]">
         <Hero />
-        <div className="mb-[20px]">
-          <Tab
-            tabs={tabs}
-            activeIndex={activeIndex}
-            setActiveIndex={setActiveIndex}
-          />
+        <div className="w-full overflow-x-auto header-bottom-section mb-[20px]">
+          <div className="w-min">
+            <Tab
+              tabs={tabs}
+              activeIndex={activeIndex}
+              setActiveIndex={setActiveIndex}
+            />
+          </div>
         </div>
-
         {activeIndex === 0 && (
           <div>
             <ReactMarkdown
