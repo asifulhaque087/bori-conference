@@ -31,14 +31,14 @@ const Hero = () => {
       <div
         className="cover-image w-[100%] h-[400px] bg-red-900 mt-[20px] grid place-items-center"
         style={{
-          backgroundImage: `linear-gradient(to bottom,rgba(0,0,0, .5),
-                rgba(0,0,0, .5)), url(${"https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"})`,
+          backgroundImage: `linear-gradient(to bottom,rgba(0,0,0, .6),
+                rgba(0,0,0, .6)), url(${"https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"})`,
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
         }}
       >
-        <h1 className="text-[65px] font-[700] text-white stroke-slate-[500]">
+        <h1 className="text-[70px] italic font-[700] text-white stroke-slate-[500] capitalize tracking-widest">
           bori
         </h1>
         {/* <img
