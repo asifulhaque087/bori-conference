@@ -28,12 +28,24 @@ const Hero = () => {
       </div>
       {/* ---------------main banner-------- */}
 
-      <div className="w-[100%] h-[400px] bg-red-900 mt-[20px]">
-        <img
+      <div
+        className="cover-image w-[100%] h-[400px] bg-red-900 mt-[20px] grid place-items-center"
+        style={{
+          backgroundImage: `linear-gradient(to bottom,rgba(0,0,0, .5),
+                rgba(0,0,0, .5)), url(${"https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"})`,
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      >
+        <h1 className="text-[65px] font-[700] text-white stroke-slate-[500]">
+          bori
+        </h1>
+        {/* <img
           className="w-[100%] h-[100%] object-cover"
           src="https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"
           alt=""
-        />
+        /> */}
       </div>
       {/* buttons */}
       <div className="flex items-center justify-end gap-x-[15px] py-[10px]">
