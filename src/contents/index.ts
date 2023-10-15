@@ -35,3 +35,104 @@ The Conference offers the opportunity to become a conference sponsor or exhibito
 - [Sponsorship and Exhibition](https://waset.org/profile/registrations/sponsorship/create/40913/8875)
 - [Volunteerism](https://waset.org/profile/registrations/volunteerism/create/40913/8875)
 `;
+
+export const venueContent = `
+Digital Program consists of the e-proceedings book which is available online-only and includes the conference communications (proceedings abstracts and papers). Registered participants can access the digitally available conference proceedings ( and certificates ) by visiting their profile pages.
+`;
+
+export const callForPaper = `
+Oceanography\
+Marine management\
+History\
+Modern oceanography\
+Ocean acidification\
+Ocean currents\
+Ocean heat content\
+Weather\
+Sea life\
+Coastal processes\
+Atmospheric sciences\
+Coastal sciences\
+Meteorology\
+Climatology\
+Marine biodiversity\
+Marine mammals\
+Chemical composition of the ocean water\
+The geology associated with the ocean\
+The physical movements of the ocean water\
+Waves and currents and tides\
+Effects of climate change, overpopulation and overfishing\
+Marine ecosystems and their inhabitants\
+Ocean's floor\
+Volcanic activity and its relation to the deep oceanic trenches\
+Acoustical oceanography\
+Biological oceanography\
+Chemical oceanography\
+Dynamical oceanography\
+Physical oceanography\
+Satellite oceanography\
+Static oceanography\
+Fisheries oceanography\
+Polar oceanography\
+Geological oceanography
+`;
+
+export const importDates = `
+| Abstracts/Full-Text Paper Submission Deadline |   | October 03, 2023 |
+| Notification of Acceptance/Rejection |   | October 17, 2023 |
+| Final Paper (Camera Ready) Submission & Early Bird Registration Deadline |   | September 30, 2023 |
+| Conference Dates |   | October 30-31, 2023 |
+`;
+
+export const committees = `
+| Bayoumy Mohamed Mohamed | University Centre in Svalbard, Egypt |
+| Fani Sakellariadou | University of Piraeus, Greece |
+| Daniel Anthoni Sihasale | University of Pattimura, Indonesia |
+| Igor Povar | Joint Institute for Nuclear Research, Moldova |
+| Siamak Jamshidi | Iranian National Institute for Oceanography and Atmospheric Science, Iran |
+| Fatemeh Sadat Sharifi | Islamic Azad University of Science and Research Branch, Iran |
+| Masoud Sadrinasab | University of Tehran, Iran |
+| Muhammad Zahir Ramli | International Islamic University Malaysia, Malaysia |
+| Masoud Sdrinasab | University of Tehran, Iran |
+| Kareem Tonbol | Arab Academy for Science, Technology and Maritime Transport, Egypt |
+| Alberto Sanchez | Instituto Politecnico Nacional Centro Interdisciplinario de Ciencias Marinas, Mexico |
+| Dina Izadi | Ariaian Young Innovative Minds Institute, Iran |
+| Komal Verma | Banaras Hindu University, India |
+| Sundarambal Palani | National University of Singapore, Singapore |
+| Babita Kumari | Bnasthali University, India |
+| Rajendran N. | Vellore Institute of Technology, India |
+| Hong Son Hoang | Service Hydrographique et Océanographique de la Marine, France |
+| Alireza Taravat | Tor Vergata University, Italy |
+| DINESH KUMAR P. K | NATIONAL INSTITUTE OF OCEANOGRAPHY, India |
+`;
+
+export const Fees = `
+Participation Type	Early Registration Ticket Fees	Registration Ticket Fees
+Non-Student Oral/Poster Presenter Registration	€ 450	€ 500
+Student Oral/Poster Presenter Registration	€ 350	€ 400
+Listener Registration	€ 250	€ 300
+Additional Paper Publication	€ 100
+All conference materials and services will be delivered digitally to the participant with the online conference management system. Conference registration includes the following digital materials and services:
+
+e-certificates [for Authors: Certificate of Attendance and Presentation; for Listeners: Certificate of Attendance; for Chairs: Certificate of Attendance and Appreciation; for Presenters: Certificate of Best Presentation (if conferred based appraisal)]
+e-program
+e-book
+e-name badge
+e-receipt
+e-presentation
+Presentation Types:
+
+Physical presentation is an oral conferencing presentation that is made using digital technology including embedded digital elements ( texts, tables, graphs, or videos ) for PowerPoint sharing.
+Digital presentation is a digital conferencing presentation that is made using digital technology including embedded digital elements ( texts, tables, graphs, or videos ) for PowerPoint sharing.
+Early Bird Registration
+
+Early Bird registration was valid until 2023-09-30 23:59:59
+
+Online Credit Card Processing
+
+Online payment option available for author and listener delegates.
+Conference participants can make online credit card payments for conference registration fees.
+
+
+
+`;

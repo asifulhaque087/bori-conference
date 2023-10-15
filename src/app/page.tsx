@@ -9,22 +9,41 @@ import Hero from "@/components/Hero";
 import Tab from "@/components/Tab";
 import Card1 from "@/components/cards/Card1";
 import { useState } from "react";
-import { aboutContent } from "@/contents/about";
+import {
+  Fees,
+  aboutContent,
+  callForPaper,
+  committees,
+  importDates,
+  venueContent,
+} from "@/contents";
 
 export default function Home() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const tabs = [
     {
-      title: "Shop",
+      title: "about",
     },
 
     {
-      title: "Job",
+      title: "venue",
     },
 
     {
-      title: "Portfolio",
+      title: "call for papers",
+    },
+
+    {
+      title: "important dates",
+    },
+
+    {
+      title: "commitees",
+    },
+
+    {
+      title: "fees",
     },
   ];
 
@@ -41,7 +60,7 @@ export default function Home() {
           setActiveIndex={setActiveIndex}
         />
 
-        {activeIndex === 1 && (
+        {activeIndex === 0 && (
           <div>
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
@@ -49,6 +68,66 @@ export default function Home() {
               className="prose"
             >
               {aboutContent}
+            </ReactMarkdown>
+          </div>
+        )}
+
+        {activeIndex === 1 && (
+          <div>
+            <ReactMarkdown
+              remarkPlugins={[gfm] as any}
+              rehypePlugins={[rehypeRaw] as any}
+              className="prose"
+            >
+              {venueContent}
+            </ReactMarkdown>
+          </div>
+        )}
+
+        {activeIndex === 2 && (
+          <div>
+            <ReactMarkdown
+              remarkPlugins={[gfm] as any}
+              rehypePlugins={[rehypeRaw] as any}
+              className="prose"
+            >
+              {callForPaper}
+            </ReactMarkdown>
+          </div>
+        )}
+
+        {activeIndex === 3 && (
+          <div>
+            <ReactMarkdown
+              remarkPlugins={[gfm] as any}
+              rehypePlugins={[rehypeRaw] as any}
+              className="prose"
+            >
+              {importDates}
+            </ReactMarkdown>
+          </div>
+        )}
+
+        {activeIndex === 4 && (
+          <div>
+            <ReactMarkdown
+              remarkPlugins={[gfm] as any}
+              rehypePlugins={[rehypeRaw] as any}
+              className="prose"
+            >
+              {committees}
+            </ReactMarkdown>
+          </div>
+        )}
+
+        {activeIndex === 5 && (
+          <div>
+            <ReactMarkdown
+              remarkPlugins={[gfm] as any}
+              rehypePlugins={[rehypeRaw] as any}
+              className="prose"
+            >
+              {Fees}
             </ReactMarkdown>
           </div>
         )}
