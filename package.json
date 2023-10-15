@@ -30,6 +30,7 @@
     "autoprefixer": "^10",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-storybook": "^0.6.15",
     "postcss": "^8",
     "storybook": "^7.5.0-alpha.7",
