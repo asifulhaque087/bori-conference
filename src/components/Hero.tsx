@@ -31,7 +31,7 @@ const Hero = () => {
       <div className="w-[100%] h-[400px] bg-red-900 mt-[20px]">
         <img
           className="w-[100%] h-[100%] object-cover"
-          src="https://waset.org/i/1140x400/static/images/cities/lisbon.jpg"
+          src="https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"
           alt=""
         />
       </div>

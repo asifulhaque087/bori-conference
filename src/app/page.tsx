@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         )}
 
-        <Card1 />
+        {/* <Card1 /> */}
         <Footer />
       </div>
     </div>
