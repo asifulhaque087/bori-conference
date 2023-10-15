@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <div className="mt-[20px]">
       {/* -----------------llinks------------ */}
-      <div className="flex gap-[15px] text-blue-600">
+      {/* <div className="flex gap-[15px] text-blue-600">
         <p>conference</p>
         <span>/</span>
         <p>2023</p>
@@ -13,7 +13,7 @@ const Hero = () => {
         <p>october 2023 in lisbon</p>
         <span>/</span>
         <p>oceanography and ocean current</p>
-      </div>
+      </div> */}
 
       {/* -----header----------- */}
 
@@ -29,7 +29,7 @@ const Hero = () => {
       {/* ---------------main banner-------- */}
 
       <div
-        className="cover-image w-[100%] h-[400px] bg-red-900 mt-[20px] grid place-items-center"
+        className="cover-images w-[100%] h-[400px] bg-red-900 mt-[20px] grid place-items-center rounded"
         style={{
           backgroundImage: `linear-gradient(to bottom,rgba(0,0,0, .6),
                 rgba(0,0,0, .6)), url(${"https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"})`,

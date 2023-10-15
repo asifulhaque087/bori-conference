@@ -4,10 +4,14 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="flex  justify-between items-center">
+      <div className="flex items-center bg-blue-500">
         {/* ---------left----------- */}
-        <div>
-          <img src="https://waset.org/static/images/wasetc.png" alt="" />
+        <div className="logoo">
+          {/* <img src="https://waset.org/static/images/wasetc.png" alt="" /> */}
+
+          <h1 className="text-[70px] italic font-[700] text-white stroke-slate-[500] capitalize tracking-widest">
+            bori
+          </h1>
         </div>
 
         {/* -----right----------- */}
@@ -33,12 +37,6 @@ const Header = () => {
             <span>Login</span>
             <span>Register</span>
           </div>
-        </div>
-
-        <div className="md:hidden flex flex-col gap-[5px] border border-slate-600 p-[10px] ">
-          <div className="w-[25px] h-[2px] bg-slate-800"></div>
-          <div className="w-[25px] h-[2px] bg-slate-800"></div>
-          <div className="w-[25px] h-[2px] bg-slate-800"></div>
         </div>
       </div>
 

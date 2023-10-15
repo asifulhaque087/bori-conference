@@ -51,8 +51,8 @@ export default function Home() {
     <div>
       {/* <div>this is the homepage</div> */}
 
-      <div className="md:mx-[200px] mx-[20px]">
-        <Header />
+      <Header />
+      <div className="md:mx-[100px] mx-[20px]">
         <Hero />
         <div className="mb-[20px]">
           <Tab
@@ -67,7 +67,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full"
             >
               {aboutContent}
             </ReactMarkdown>
@@ -79,7 +79,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full"
             >
               {venueContent}
             </ReactMarkdown>
@@ -91,7 +91,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full "
             >
               {callForPaper}
             </ReactMarkdown>
@@ -103,7 +103,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full"
             >
               {importDates}
             </ReactMarkdown>
@@ -115,7 +115,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full"
             >
               {committees}
             </ReactMarkdown>
@@ -127,7 +127,7 @@ export default function Home() {
             <ReactMarkdown
               remarkPlugins={[gfm] as any}
               rehypePlugins={[rehypeRaw] as any}
-              className="prose"
+              className="prose !max-w-full"
             >
               {Fees}
             </ReactMarkdown>
