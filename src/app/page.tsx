@@ -50,7 +50,6 @@ export default function Home() {
   return (
     <div>
       {/* <div>this is the homepage</div> */}
-
       <Header />
       <div className="md:mx-[100px] mx-[20px]">
         <Hero />

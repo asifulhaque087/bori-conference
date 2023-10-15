@@ -4,44 +4,37 @@ import React from "react";
 const Header = () => {
   return (
     <>
-      <div className="flex items-center bg-blue-500">
+      <div className="flex flex-col md:flex-row items-center bg-white shadow-md pb-[20px] md:pb-0 px-[30px]">
         {/* ---------left----------- */}
         <div className="logoo">
           {/* <img src="https://waset.org/static/images/wasetc.png" alt="" /> */}
 
-          <h1 className="text-[70px] italic font-[700] text-white stroke-slate-[500] capitalize tracking-widest">
+          <h1 className="text-[50px] italic font-[700] text-blue-400 stroke-slate-[500] capitalize tracking-widest">
             bori
           </h1>
         </div>
 
         {/* -----right----------- */}
 
-        <div className="md:flex flex-col items-end gap-[15px] hidden ">
-          {/* -----top---- */}
-          <div>
-            <input
-              className="border border-slate-300 p-[10px] outline-none"
-              type="search"
-              placeholder="Search Conferences"
-              name="search"
-            />
-            <span>search</span>
-          </div>
-          {/* -------down------- */}
-          <div className="flex flex-wrap gap-[20px]">
-            <span>Conferences</span>
-            <span>Disciplines</span>
-            <span>Committies</span>
-            <span>Publications</span>
-            <span>support</span>
-            <span>Login</span>
-            <span>Register</span>
-          </div>
+        <div className="flex items-end gap-x-[18px] md:ml-auto">
+          <span className="text-[14px] capitalize text-gray-700">
+            Conferences
+          </span>
+          <span className="text-[14px] capitalize text-gray-700 hidden md:block">
+            Disciplines
+          </span>
+          <span className="text-[14px] capitalize text-gray-700">
+            Committies
+          </span>
+          <span className="text-[14px] capitalize text-gray-700 hidden md:block">
+            Publications
+          </span>
+          <span className="text-[14px] capitalize text-gray-700 hidden sm:block">
+            support
+          </span>
+          <span className="text-[14px] capitalize text-gray-700">Login</span>
+          <span className="text-[14px] capitalize text-gray-700">Register</span>
         </div>
-      </div>
-
-      <div>
-        <div className="  h-[1px] bg-slate-200 mt-[15px]"></div>
       </div>
     </>
   );
