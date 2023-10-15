@@ -68,7 +68,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full"
             >
-              {aboutContent}
+              {/* {aboutContent} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
@@ -80,7 +81,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full"
             >
-              {venueContent}
+              {/* {venueContent} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
@@ -92,7 +94,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full "
             >
-              {callForPaper}
+              {/* {callForPaper} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
@@ -104,7 +107,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full"
             >
-              {importDates}
+              {/* {importDates} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
@@ -116,7 +120,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full"
             >
-              {committees}
+              {/* {committees} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
@@ -128,7 +133,8 @@ export default function Home() {
               rehypePlugins={[rehypeRaw] as any}
               className="prose !max-w-full"
             >
-              {Fees}
+              {/* {Fees} */}
+              ### The site under maintenance
             </ReactMarkdown>
           </div>
         )}
