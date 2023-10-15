@@ -1,5 +1,6 @@
 "use client";
-import React from "react";
+
+import { BsFillCalendarCheckFill, BsFillMapFill } from "react-icons/bs";
 
 const Hero = () => {
   return (
@@ -17,19 +18,12 @@ const Hero = () => {
 
       {/* -----header----------- */}
 
-      <div className="w-[100%] mt-[30px]">
-        <h3 className="text-[25px] text-center font-[500] text-slate-800 ">
-          ICOOC 2023: 17. International Conference on Oceanography and Ocean
-          Currents
-        </h3>
-        <p className="text-[23px] text-center ">
-          October 30-31, 2023 in Lisbon, Portugal
-        </p>
-      </div>
+      {/* <div className="w-[100%] mt-[30px]">
+      </div> */}
       {/* ---------------main banner-------- */}
 
       <div
-        className="cover-images w-[100%] h-[400px] bg-red-900 mt-[20px] grid place-items-center rounded"
+        className="cover-images w-[100%] h-[500px] mt-[20px] grid place-items-center rounded"
         style={{
           backgroundImage: `linear-gradient(to bottom,rgba(0,0,0, .6),
                 rgba(0,0,0, .6)), url(${"https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"})`,
@@ -38,9 +32,35 @@ const Hero = () => {
           backgroundSize: "cover",
         }}
       >
-        <h1 className="text-[70px] italic font-[700] text-white stroke-slate-[500] capitalize tracking-widest">
+        {/* <h1 className="text-[70px] italic font-[700] text-white stroke-slate-[500] capitalize tracking-widest">
           bori
-        </h1>
+        </h1> */}
+
+        <div>
+          <h3 className="text-[60px] font-[700] text-white text-center">
+            Bori events
+          </h3>
+
+          <div className="flex items-center gap-x-[10px] mt-[10px]">
+            <span className="text-white text-[20px]">
+              <BsFillCalendarCheckFill size={25} />
+            </span>
+            <span className="text-white text-[20px] font-[600]">
+              30 Oct, 2023
+            </span>
+            <span className="text-white text-[20px] font-[600] px-[5px]">
+              |
+            </span>
+
+            <span className="text-white text-[20px]">
+              <BsFillMapFill size={25} />
+            </span>
+            <span className="text-white text-[20px] font-[600] capitalize">
+              cox bazar
+            </span>
+          </div>
+        </div>
+
         {/* <img
           className="w-[100%] h-[100%] object-cover"
           src="https://1.bp.blogspot.com/-TdKkD7p1z0Q/Xar7ZOGSeJI/AAAAAAAAa4E/pScoCY_zSx89-ifKl-7OsZ7VBa_APCluQCNcBGAsYHQ/s1600/bori-Bangladesh-Oceanographic-Research-Institute.jpg"
