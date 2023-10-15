@@ -54,11 +54,13 @@ export default function Home() {
       <div className="md:mx-[200px] mx-[20px]">
         <Header />
         <Hero />
-        <Tab
-          tabs={tabs}
-          activeIndex={activeIndex}
-          setActiveIndex={setActiveIndex}
-        />
+        <div className="mb-[20px]">
+          <Tab
+            tabs={tabs}
+            activeIndex={activeIndex}
+            setActiveIndex={setActiveIndex}
+          />
+        </div>
 
         {activeIndex === 0 && (
           <div>
