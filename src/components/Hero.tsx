@@ -69,15 +69,15 @@ const Hero = () => {
       </div>
       {/* buttons */}
       <div className="flex items-center justify-end gap-x-[15px] py-[10px]">
-        <button className="bg-green-500 px-[20px] py-[10px] rounded text-white capitalize">
+        <button className="bg-green-500 px-[20px] py-[10px] rounded text-[14px] text-white capitalize">
           submit papers
         </button>
 
-        <button className="bg-cyan-500 px-[20px] py-[10px] rounded text-white capitalize">
+        <button className="bg-blue-400 px-[20px] py-[10px] rounded text-[14px] text-white capitalize">
           author registration
         </button>
 
-        <button className="bg-cyan-500 px-[20px] py-[10px] rounded text-white capitalize">
+        <button className="bg-cyan-500 px-[20px] py-[10px] rounded text-[14px] text-white capitalize">
           listener registration
         </button>
       </div>

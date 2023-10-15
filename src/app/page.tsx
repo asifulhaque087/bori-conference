@@ -51,7 +51,7 @@ export default function Home() {
     <div>
       {/* <div>this is the homepage</div> */}
       <Header />
-      <div className="md:mx-[100px] mx-[20px]">
+      <div className="md:mx-[100px] mx-[20px] mt-[50px]">
         <Hero />
         <div className="mb-[20px]">
           <Tab
@@ -134,6 +134,9 @@ export default function Home() {
         )}
 
         {/* <Card1 /> */}
+      </div>
+
+      <div className="mt-[30px]">
         <Footer />
       </div>
     </div>
